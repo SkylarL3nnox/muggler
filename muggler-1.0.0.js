@@ -1,2 +1,0 @@
-/* Copyright (c) Muggler 2016-2017 */
-if(!('jQuery' in window)){throw new Error('jQuery was not found, please import it');}$(document).blur(function(){$('body').attr('class','eyes-off');});$(document).focus(function(){$('body').attr('class','eyes-on');});$(document).ready(function(){if($('input').attr('data-color')=='red'){$('input').css({color:'red'});}});
