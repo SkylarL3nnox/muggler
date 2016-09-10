@@ -1,0 +1,108 @@
+@charset 'UTF-8';
+
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+* {
+    box-sizing:inherit;
+}
+
+html {
+    font-family:'Roboto',sans-serif;
+    font-weight:normal;
+}
+
+nav {
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* NAV */
+nav .nav-content {
+    position:relative;
+    height:100%;
+}
+/* GENERAL */
+
+.main-logo {
+    height:64px;
+    line-height:64px;
+}
+
+.container {
+    position:absolute;
+    left:200px;
+    right:200px;
+}
+
+.right-align {
+    float:right;
+}
+
+.left-align {
+    float:left;
+}
+
+.white-content {
+    color:white;
+}
+
+.default {
+    background-color:aquamarine;
+}
+
+.blue {
+    background-color: cornflowerblue;
+}
+
+.red {
+    background-color:red;
+}
+
+.text-size-1 {
+    font-size:16px;
+}
+
+.text-size-2 {
+    font-size:29px;
+}
+
+.text-size-3 {
+    font-size:39px;
+}
+
+a.muggler-btn.btn-default {
+
+}
+
+button.muggler-btn.btn-default {
+
+}
+
+input.muggler-btn.btn-default {
+
+}
+
+
+/* FOOTER */
+.footer {
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    height:50px;
+}
+
+.footer-content {
+    
+}
